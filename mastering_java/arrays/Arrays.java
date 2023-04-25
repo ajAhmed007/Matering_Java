@@ -8,10 +8,8 @@ public class Arrays {
 
     //FINDING THE LARGEST ELEMENT IN AN ARRAY
     public static int largestElement(int[] arr){
-
         //initialize a var to store largest element and set it to the first element in the arr for now
         int largest = arr[0];
-
         //loop through all the elements in the array
         for(int i = 0; i < arr.length; i++){
             //if the current element in the arr is larger than current largest
